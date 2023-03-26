@@ -1,0 +1,157 @@
+@media (max-width: 991px) {
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu__link {
+        padding: 20px;
+    }
+
+    .main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+
+    .students {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu__link {
+        padding: 15px;
+    }
+
+    .main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .content__section {
+        width: 100%;
+    }
+
+    .heading {
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 576px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu__link {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .content__section {
+        width: 100%;
+    }
+
+    .heading {
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 28px;
+    }
+
+    .about__text {
+        font-size: 16px;
+    }
+
+    .footer {
+        width: 576px;
+    }
+}
+
+@media (max-width: 460px) {
+    .header {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .menu__link {
+        font-size: 14px;
+    }
+
+    .heading {
+        margin-left: 5px;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+    .about__text {
+        font-size: 14px;
+    }
+
+    .students {
+        justify-content: space-around;
+        margin-left: 91px;
+    }
+
+    .subtitle {
+        text-align: end;
+        width: 376px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .menu__link {
+        font-size: 12px;
+        padding: 10px 5px;
+    }
+
+    .heading {
+        margin-left: 5px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .about__text {
+        font-size: 12px;
+    }
+
+    .students {
+        justify-content: end;
+    }
+
+    .subtitle {
+        text-align: end;
+    }
+}
