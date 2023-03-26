@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="css/ adaptivemain.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <a class="logo" href="#">
+                <img src="/images/logo.svg" alt="logotype">
+            </a>
+            <ul class="menu">
+                <li class="menu__list"><a class="menu__link menu__link_active" href="main.html">Главная </a></li>
+                <li class="menu__list"><a class="menu__link" href="students.html">Студенты</a></li>
+                <li class="menu__list"><a class="menu__link " href="about.html">О курсе </a></li>
+                <li class="menu__list"><a class="menu__link" href="contacts.html">Контакты</a></li>
+            </ul>
+            <button class="button" id="loginBtn">Войти</button>
+            <!-- <a class="button" href="#">Войти</a> -->
+            <div id="loginModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 class="btn">Войти на сайт</h2>
+                    <form>
+                        <p><input class="log" name="login" placeholder="Логин"></p>
+                        <p><input class="pas" name="pass" type="password" placeholder="Пароль"></p>
+                        <input class="submi" type="submit" value="Войти">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <h1 class="title">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+            <img class="main_photo" src="/images/class 2.jpg" alt="главное фото">
+            <div class="content__info">
+                <div class="content__section">
+                    <div class="content__article">
+                        <h3 class="subtitle">Для кого этот курс</h3>
+                        <p class="about__text">Этот курс рассчитан на новичков, которые только начинают знакомство с
+                            веб-разработкой. В начале курса вы узнаете о том, как устроен Интернет и веб-сайты.
+                            Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером,
+                            создавать папки и файлы, устанавливать программы).</p>
+                    </div>
+                    <div class="content__article">
+                        <h3 class="subtitle">Чему вы научитесь</h3>
+                        <p class="about__text">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с
+                            нуля.
+                            Изучите основы языков <b>HTML, CSS</b> и немного <b>JavaScript.</b> Мы вместе сверстаем сайт
+                            нашей группы по
+                            этому макету. А затем вы <span class="color">сами</span> сверстаете свои личные странички в
+                            качестве домашнего
+                            задания и мы
+                            выложим все это на сервер.</p>
+                    </div>
+                </div>
+                <h2 class="heading">
+                    <span class="knp">&#8220;</span>Учимся вместе!<span class="snp">&#8221;</span>
+                </h2>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <a class="footer-link" href="#">2023 © учебный центр </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
