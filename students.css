@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #213B7E;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: calc(50% - 1268px / 2);
+    padding-right: calc(50% - 1268px / 2);
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    padding: 28px 18px;
+    display: block;
+}
+
+.menu__link_active {
+    color: #213B7E;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.button {
+    width: 153px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EA5D21;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.video {
+    padding-left: calc(50% - 820px / 2);
+    padding-right: calc(50% - 820px / 2);
+}
+
+.footer {
+    background-color: #213B7E;
+    height: 60px;
+    margin-top: 187px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+
+.footer-link {
+    font-size: 20px;
+    display: flex;
+    color: #FFFFFF80;
+    padding: 18px;
+}
+
+.main {
+    padding-left: calc(50% - 1202px / 2);
+    padding-right: calc(50% - 1202px / 2);
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    align-items: center;
+    color: #000000;
+    margin-top: 37px;
+}
+
+.students {
+    display: flex;
+    margin-top: 24px;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.icons {
+    position: relative;
+}
+
+.new {
+    position: absolute;
+    top: -12px;
+    right: -13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #3AA828;
+    border-radius: 20px;
+    padding: 2px 1px 1px 5px;
+}
+
+.name {
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
