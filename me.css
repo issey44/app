@@ -190,7 +190,7 @@ button:hover {
     font-size: 26px;
     color: #67798e;
     transition: all 0.3s ease;
-  
+    z-index: 1;
 }
 
 .social_icon:after {
