@@ -126,3 +126,30 @@ body {
 .address {
     margin-bottom: 31px;
 }
+
+.menu__link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.menu__link:hover {
+    color: #EA6113;
+    text-decoration: none;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.menu__link:active {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    transition: border-bottom 0.3s ease;
+}
+
+.menu__link_active {
+    background-color: #fff;
+    color: #213B7E;
+    text-decoration: none;
+    border-bottom: 2px solid #333;
+}
