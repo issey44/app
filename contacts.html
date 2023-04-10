@@ -22,7 +22,18 @@
                 <li class="menu__list"><a class="menu__link " href="about.html">О курсе </a></li>
                 <li class="menu__list"><a class="menu__link menu__link_active" href="contacts.html">Контакты</a></li>
             </ul>
-            <a class="button" href="#">Войти</a>
+            <button class="button" id="loginBtn">Войти</button>
+                        <div id="loginModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 class="btn">Войти на сайт</h2>
+                    <form>
+                        <p><input class="log" name="login" placeholder="Логин"></p>
+                        <p><input class="pas" name="pass" type="password" placeholder="Пароль"></p>
+                        <input class="submi" type="submit" value="Войти">
+                    </form>
+                </div>
+            </div>
         </header>
         <main class="main">
             <div class="glaf">
